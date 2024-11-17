@@ -8,8 +8,8 @@ import os
 import time
 from pathlib import Path
 
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+# temp = pathlib.PosixPath
+# pathlib.PosixPath = pathlib.WindowsPath
 model_path = 'best.pt'  # Replace with your actual .pt file path
 
 try:
